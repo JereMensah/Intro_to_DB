@@ -1,5 +1,5 @@
 -- task_4.sql
--- Prints the full description of the table 'books' in alx_book_store
+-- Prints the full description of the table 'Books' in alx_book_store
 
 USE alx_book_store;
 
@@ -12,4 +12,5 @@ SELECT
     EXTRA AS 'Extra'
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_SCHEMA = 'alx_book_store'
-  AND TABLE_NAME = 'books';
+  AND TABLE_NAME = 'Books';
+
