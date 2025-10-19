@@ -1,4 +1,6 @@
--- Script to display full description of 'books' table without using DESCRIBE or EXPLAIN
+-- Script to show full description of the 'books' table without using DESCRIBE, EXPLAIN, or ANALYZE
+
+USE alx_book_store;
 
 SELECT 
     COLUMN_NAME,
